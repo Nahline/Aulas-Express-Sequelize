@@ -1,26 +1,26 @@
-//Testar a conexão com o sequelize
+// ///Testar a conexão com o sequelize
 // const sequelize = require('./database/db');
-// async function testar(){
-//     try {
-//         await sequelize.authenticate();
-//         console.log('Connection has been established successfully.');
-//       } catch (error) {
-//         console.error('Unable to connect to the database:', error);
-//     }
+// async function testar() {
+//   try {
+//     await sequelize.authenticate();
+//     console.log('Connection has been established successfully.');
+//   } catch (error) {
+//     console.error('Unable to connect to the database:', error);
+//   }
 // }
 // testar();
 
-// Sincronizar o banco de dados
+// ///Sincronizar o banco de dados
 // const pessoa = require('./models/Pessoa');
-// async function sincronizar(){
+// async function sincronizar() {
 //   await pessoa.sync();
 //   console.log('Sincronizado');
 // }
 // sincronizar();
 
-//Salvar uma pessoa
-// const pessoa = require('./models/Pessoa');
-// async function salvar(){
+// ///Salvar uma pessoa
+// ///const pessoa = require('./models/Pessoa');
+// async function salvar() {
 //   const paulo = pessoa.build({
 //     nome: "Paulo",
 //     email: "paulo@gmail.com"
